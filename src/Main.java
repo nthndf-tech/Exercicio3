@@ -16,7 +16,7 @@ public class Main {
         //2. Aprobación con condiciones: Declara una variable con la nota y otra booleana que indique si
         //asistió a clases. Muestra 'Aprobado' solo si la nota es mayor o igual a 60 y asistió a clases.
 
-        int nota = 70;
+        int nota = 40;
         boolean presencial = true;
 
         if (nota >= 60) {
@@ -24,6 +24,16 @@ public class Main {
         }else{
             System.out.println("No assistió a clases.");
         }
+        //3. Rango válido: Declara una variable entera. Verifica si está entre 50 y 100 inclusive. Muestra
+        //'Dentro del rango' o 'Fuera del rango'
 
+        int var = 80;
+
+        if (var >= 50 && var <= 100 ) {
+           System.out.println("Dentro del rango");
+       }else{
+           System.out.println("Fuera del rango.");
+       }
+
+       }
     }
-}
